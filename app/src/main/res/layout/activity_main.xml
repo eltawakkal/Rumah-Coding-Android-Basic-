@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#3F51B5"
+    android:padding="20dp"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Facebook"
+        android:textColor="#FFF"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"/>
+
+    <EditText
+        android:background="#FFF"
+        android:hint="Email or Phone"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_email"
+        android:inputType="textEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:background="#FFF"
+        android:hint="Password"
+        android:padding="10dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_key"
+        android:inputType="textPassword"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:text="Log In"
+        android:textColor="#FFF"
+        android:background="#263274"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
