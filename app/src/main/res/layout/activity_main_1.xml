@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/tv_atas"
+        android:src="@drawable/bg_main"
+        android:scaleType="centerCrop"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"/>
+
+    <LinearLayout
+        android:layout_below="@id/tv_atas"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#FF9800"
+        android:layout_width="match_parent"
+        android:layout_height="400dp">
+
+    </LinearLayout>
+
+</RelativeLayout>

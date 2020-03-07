@@ -20,6 +20,7 @@
         android:layout_marginBottom="100dp"/>
 
     <EditText
+        android:id="@+id/edt_email"
         android:background="#FFF"
         android:hint="Email or Phone"
         android:layout_marginBottom="10dp"
@@ -31,6 +32,7 @@
         android:layout_height="wrap_content"/>
 
     <EditText
+        android:id="@+id/edt_pass"
         android:background="#FFF"
         android:hint="Password"
         android:padding="10dp"
@@ -42,6 +44,7 @@
         android:layout_height="wrap_content"/>
 
     <Button
+        android:id="@+id/btn_login"
         android:text="Log In"
         android:textColor="#FFF"
         android:background="#263274"
